@@ -55,10 +55,11 @@ mysql.Connection.prototype.setOnline = async function (email) {
 };
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'test'
+    host: 'bpraeuanqfrowpekyhan-mysql.services.clever-cloud.com',
+    port: 3306,
+    user: 'ub9fjvzh3lcs5zil',
+    password: 'dZYtz9DfdbGXF3sBo5MQ',
+    database: 'bpraeuanqfrowpekyhan'
 });
 
 export default db;
